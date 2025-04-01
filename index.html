@@ -7,7 +7,7 @@
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin: 40px; }
         h1 { color: #2c3e50; }
-        h2 { color: #3498db; }
+        h2 { color: #6dc26d; }
         p { font-size: 18px; color: #555; }
         a { color: #3498db; text-decoration: none; font-weight: bold; }
         h3, h4 { color: #2c3e50; }
@@ -23,8 +23,10 @@
 
     <h3>Projetos</h3>
     <ul>
-        <li><a href="https://github.com/camiilinhas/camila-sousa-portfolio/tree/f545980e81f4b1f4e4a85cea384cdce67f480b71/Rendimento_Escolar_Analise">Análise do Rendimento Escolar (2020-2023)</a></li>
-    </ul>
+        <li><a href="Rendimento_Escolar_Analise/main.py">Análise do Rendimento Escolar (2020-2023)</a></li>
+        <li><a href="Rendimento_Escolar_Analise/scripts/data_cleaning.py">Código: Limpeza de Dados</a></li>
+        <li><a href="Rendimento_Escolar_Analise/data/rendimento_escolar_2021.xlsx">Dados do INEP (2020 - 2023)</a></li>
+        <li><a href="Rendimento_Escolar_Analise/requirements.txt">Lista de Bibliotecas Necessárias</a></li>    </ul>
 
     <h3>Storytelling: Análise do Rendimento Escolar</h3>
     <p>🌍 A pandemia da COVID-19 impactou profundamente a educação no Brasil, na qual ocasionou desafios como: o ensino remoto, dificuldades de adaptação e lacunas no aprendizado. Como esses fatores influenciaram o rendimento escolar nos anos seguintes? Vamos analisar as taxas de aprovação, reprovação e abandono escolar de 2020 a 2023.</p>
@@ -37,7 +39,8 @@
         <p>A análise dos dados revela uma queda na média de aprovação nos dois primeiros anos após a pandemia. Em 2020, a taxa de aprovação foi de <strong>98,13%</strong>, mas em 2021 caiu para <strong>96,61%</strong>, representando uma diminuição de <strong>-1,55%</strong>. Em 2022, a taxa continuou a cair, atingindo <strong>94,31%</strong>, uma variação negativa de <strong>-2,38%</strong>.</p>
         <p>Entretanto, <strong>2023</strong> apresentou uma leve recuperação, com a taxa de aprovação aumentando para <strong>95,70%</strong>, o que representa uma melhoria de <strong>+1,47%</strong> em comparação com 2022, mas ainda ficando abaixo dos níveis de 2020 e 2021.</p>
         <p><strong>Recuperação em relação a 2021</strong>: A taxa de aprovação de 2023 ainda está <strong>-0,95%</strong> abaixo de 2021, na qual indica-se que, embora tenha havido uma recuperação em comparação a 2022, o rendimento não retornou aos níveis de antes da pandemia.</p>
-        <img src="/assets/img/Figure_1.png" alt="Taxa de Aprovação - Evolução por Ano">
+        <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_1.png" alt="Taxa de Aprovação - Evolução por ano" width="80%">
+
     </section>    
 
     <!-- Gráfico de comparação por dependência - Taxa de aprovação -->       
@@ -47,7 +50,7 @@
         <p>A taxa de aprovação nas escolas públicas apresentou uma queda constante de 2020 a 2023, refletindo as dificuldades enfrentadas pelo sistema educacional, com uma redução de <strong>98,13%</strong> para <strong>96,61%</strong> entre 2020 e 2021, e uma recuperação modesta de <strong>0,95%</strong> em 2023.</p>
         <p>Em contraste, as escolas privadas mantiveram uma taxa de aprovação mais alta e mais estável, com flutuações menos pronunciadas. As taxas de aprovação caíram ligeiramente em 2021, mas a recuperação foi mais evidente em 2023.</p>
         <p>Essa diferença entre as escolas públicas e privadas destaca um fator crítico: <strong>as escolas públicas enfrentaram dificuldades adicionais, como a escassez de recursos e a adaptação ao ensino remoto</strong>, que podem ter contribuído para o aumento das taxas de reprovação e as quedas nas taxas de aprovação.</p>
-        <img src="/assets/img/Figure_2.png" alt="Taxa de Aprovação - Comparação por Dependência" width="80%">
+        <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_2.png" alt="Taxa de Aprovação - Comparação por Dependência" width="80%">
     </section>
     
     <!-- Gráfico de comparação por Variações Regionais - Taxa de aprovação --> 
@@ -57,7 +60,7 @@
         <p>A análise revela que algumas regiões, como o Sudeste e o Sul, apresentaram uma recuperação mais rápida após a queda nas taxas de aprovação em 2021. Estas regiões, geralmente com melhor infraestrutura educacional e acesso a recursos, conseguiram se adaptar mais rapidamente ao ensino remoto e implementaram soluções mais eficazes.</p>
         <p>Por outro lado, regiões do Norte e Nordeste, historicamente com maiores desigualdades educacionais, enfrentaram desafios mais significativos, o que refletiu em uma recuperação mais lenta e um aumento na evasão escolar. A falta de recursos e a maior dependência de tecnologias para o ensino remoto dificultaram o processo de adaptação e, consequentemente, impactaram negativamente as taxas de aprovação.</p>
         <p><strong>Essas disparidades regionais refletem a desigualdade educacional no Brasil e destacam a importância de políticas públicas direcionadas para cada realidade local.</strong> A pandemia evidenciou a necessidade urgente de fortalecer o apoio educacional em regiões com maior vulnerabilidade social.</p>
-        <img src="/assets/img/Figure_3.png" alt="Taxa de Aprovação - Variações Regionais" width="80%">
+        <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_3.png" alt="Taxa de Aprovação - Variações Regionais" width="80%">
     </section>
 
     <!-- Gráfico de evolução por ano - Taxa de reprovação -->     
@@ -68,7 +71,7 @@
         <p>Em 2022, a taxa de reprovação continuou a subir, atingindo <strong>4,64%</strong>, uma variação de <strong>97,09%</strong> em relação a 2021.</p>
         <p>No entanto, em 2023, houve uma diminuição na taxa de reprovação, que caiu para <strong>3,62%</strong>, representando uma recuperação de <strong>-22,13%</strong> em relação a 2022. Ainda assim, a taxa de reprovação permaneceu bem acima dos níveis de 2020 e 2021.</p>
         <p><strong>Recuperação em relação a 2021</strong>: A taxa de reprovação de 2023 foi <strong>53,47%</strong> inferior à de 2021, indicando uma recuperação significativa, mas ainda alta.</p>
-        <img src="/assets/img/Figure_4.png" alt="Taxa de Reprovação - Evolução por Ano" width="80%">
+        <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_4.png" alt="Taxa de Reprovação - Evolução por ano" width="80%">
     </section>
 
     <!-- Gráfico de comparação por dependência - Taxa de reprovação --> 
@@ -77,7 +80,7 @@
         <p>➡️ <strong>A comparação das taxas de reprovação entre escolas públicas e privadas revela grandes disparidades.</strong></p>
         <p>As escolas públicas, especialmente as mais periféricas, enfrentaram dificuldades muito maiores na adaptação ao ensino remoto e na manutenção do engajamento dos alunos, o que resultou em um aumento significativo nas taxas de reprovação, principalmente em 2021.</p>
         <p>Já as escolas privadas, com recursos mais abundantes e uma capacidade maior de adaptação, conseguiram controlar a taxa de reprovação de forma mais eficaz, embora ainda tenha sido notável o impacto da pandemia nas taxas de reprovação. Essas escolas apresentaram uma recuperação mais rápida em 2023, embora com uma taxa ainda superior a 2020.</p>
-        <img src="/assets/img/Figure_5.png" alt="Taxa de Reprovação - Comparação por Dependência Administrativa" width="80%">
+        <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_5.png" alt="Taxa de Reprovação - Comparação por Dependência" width="80%">
     </section>
 
     <!-- Gráfico de comparação por Variações Regionais - Taxa de Reprovação -->
@@ -87,7 +90,7 @@
     <p> Em 2021, as regiões Norte e Nordeste apresentaram as taxas mais altas de reprovação, com 12.3% e 11.9%, respectivamente. No entanto, a região Sudeste, com uma infraestrutura mais robusta, manteve suas taxas em torno de 8% a 9%. </p> 
     <p> Em 2023, todos os setores mostraram uma recuperação significativa. A região Norte reduziu sua taxa de reprovação em 10%, enquanto o Sudeste caiu para 7.2%, refletindo os avanços em políticas de apoio e adaptação educacional. </p> 
     <p> Esses resultados ressaltam a importância de políticas educacionais regionais e a capacidade de adaptação das escolas em um cenário pós-pandemia, o que pode ser um diferencial nas estratégias de retenção e no aumento da eficácia do ensino. </p>
-    <img src="assets/img/Figure_6.png" alt="Taxa de Reprovação - Variações Regionais" width="80%">
+    <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_6.png" alt="Taxa de Reprovação - Variações Regionais" width="80%">
 </section>
 
     <!-- Gráfico de evolução por ano - Taxa de abandono --> 
@@ -99,7 +102,7 @@
         <p>Em 2022, houve uma leve queda para 1.05%, mas a recuperação ainda era tímida, com muitos alunos enfrentando desafios para reintegrar o sistema educacional presencial.</p>
         <p>No entanto, em 2023, a taxa de abandono caiu significativamente para 0.70%, uma redução de 36.10% em relação a 2021, o que indica que as políticas de retenção de alunos e o retorno presencial às aulas começaram a mostrar resultados positivos.</p>
         <p>Esse cenário reflete um esforço de recuperação das escolas e do governo para diminuir o abandono, mostrando que, apesar dos desafios iniciais, há uma recuperação gradual.</p>
-        <img src="/assets/img/Figure_7.png" alt="Taxa de Abandono - Evolução por Ano" width="80%">
+        <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_7.png" alt="Taxa de Abandono - Evolução por ano" width="80%">
     </section>
 
     <!-- Gráfico de comparação por dependência - Taxa de abandono --> 
@@ -110,7 +113,7 @@
         <p>Já as escolas privadas, com mais recursos e capacidade de adaptação ao ensino remoto, conseguiram manter a taxa de abandono relativamente mais baixa.</p>
         <p>Em 2021, as escolas públicas registraram um aumento significativo no abandono, atingindo uma taxa de 1.2%, enquanto as privadas mantiveram um nível mais estável. No entanto, as escolas públicas conseguiram apresentar uma recuperação mais acelerada em 2023, com a taxa de abandono caindo 35% em relação a 2021, enquanto as privadas apresentaram uma recuperação mais moderada.</p>
         <p>Isso reflete as desigualdades educacionais no Brasil, com as escolas públicas enfrentando maiores obstáculos para manter os alunos, mas também destacando as políticas de apoio mais eficazes que ajudaram na recuperação em 2023.</p>
-        <img src="/assets/img/Figure_8.png" alt="Taxa de Abandono - Comparação por Dependência" width="80%">
+        <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_8.png" alt="Taxa de Abandono - Comparação por Dependência" width="80%">
     </section>
 
     <!-- Gráfico de comparação por Variações Regionais - Taxa de abandono --> 
@@ -121,7 +124,7 @@
         <p>Em contraste, as regiões Sul e Sudeste conseguiram implementar políticas de retenção mais eficazes, o que resultou em uma queda significativa na taxa de abandono, especialmente em 2023, quando as taxas caíram de 1.1% para 0.65% na região Sul e de 1.0% para 0.72% no Sudeste.</p>
         <p>A recuperação na taxa de abandono nas regiões mais afetadas, como Norte e Nordeste, também foi notável, com uma redução de 40% na taxa de abandono em 2023 em relação a 2021, mostrando um esforço concentrado de políticas públicas e iniciativas de apoio social para reter os alunos.</p>
         <p>Essas variações regionais mostram a complexidade da situação educacional no Brasil e a necessidade de estratégias mais adaptadas às realidades locais para combater o abandono escolar de forma eficaz.</p>
-        <img src="/assets/img/Figure_9.png" alt="Taxa de Abandono - Variações Regionais" width="80%">
+        <img src="https://camiilinhas.github.io/DataLinhas/Rendimento_Escolar_Analise/assets/img/Figure_9.png" alt="Taxa de Abandono - Variações Regionais" width="80%">
     </section>
 
     <h3>Contato</h3>
